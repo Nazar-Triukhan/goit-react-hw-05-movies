@@ -7,7 +7,7 @@ import MoviesProvider from './MoviesContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/goit-react-hw-05-movies'>
       <MoviesProvider >
         <App />
       </MoviesProvider>
