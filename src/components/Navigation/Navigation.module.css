@@ -1,0 +1,15 @@
+.navigation {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    border-bottom: 1px solid gainsboro;
+   box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+.link{
+    font-weight: 500;
+}
+
+.link:global(.active) {
+  color: rgb(255, 89, 89);
+}
