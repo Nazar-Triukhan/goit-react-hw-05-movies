@@ -1,0 +1,1 @@
+import{d as e,i as t,n,u as r}from"./index-B_4ewXOx.js";import{t as i}from"./MovieList-Bhxld_Kp.js";var a=e(r(),1),o=t();function s(){let[e,t]=(0,a.useState)([]);return(0,a.useEffect)(()=>{async function e(){let e=await n();t(e)}e()},[]),(0,o.jsxs)(`section`,{children:[(0,o.jsx)(`h1`,{children:`Trending today`}),(0,o.jsx)(i,{movies:e})]})}export{s as default};
